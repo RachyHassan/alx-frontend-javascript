@@ -4,11 +4,11 @@ export default class HolbertonCourse {
     this._name = name;
   }
 
-  getCode() {
+  get code() {
     return this._code;
   }
 
-  setCode(code) {
+  set code(code) {
     if (typeof code === 'string') {
       this._code = code;
     } else {
@@ -16,11 +16,11 @@ export default class HolbertonCourse {
     }
   }
 
-  getName() {
+  get name() {
     return this._name;
   }
 
-  setName(name) {
+  set name(name) {
     if (typeof name === 'string') {
       this._name = name;
     } else {
